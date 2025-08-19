@@ -1,0 +1,16 @@
+langchain
+langchain-core
+langchain-text-splitters
+dashscope
+chromadb
+pypdf
+docx2txt
+python-dotenv
+fastapi
+uvicorn
+streamlit
+pydantic
+SQLAlchemy
+requests
+PyYAML
+numpy
