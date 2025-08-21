@@ -1,0 +1,32 @@
+[
+  {
+    "filename": "notes.txt",
+    "file_path": "D:\\ai-rag-app\\docs\\notes.txt",
+    "status": "success",
+    "content": "这是我的学习笔记。\nLangChain 很强大。\nChromaDB 可以做向量检索。",
+    "pages": 1,
+    "word_count": 5,
+    "char_count": 42,
+    "type": "txt"
+  },
+  {
+    "filename": "report.docx",
+    "file_path": "D:\\ai-rag-app\\docs\\report.docx",
+    "status": "success",
+    "content": "这是一个测试报告。 LangChain 可以读取 Word 文件。 RAG 应用即将启动！",
+    "pages": 1,
+    "word_count": 7,
+    "char_count": 45,
+    "type": "docx"
+  },
+  {
+    "filename": "sample.pdf",
+    "file_path": "D:\\ai-rag-app\\docs\\sample.pdf",
+    "status": "success",
+    "content": "这是一个测试报告。 LangChain 可以读取 Word 文件。 RAG 应用即将启动！",
+    "pages": 1,
+    "word_count": 7,
+    "char_count": 46,
+    "type": "pdf"
+  }
+]
