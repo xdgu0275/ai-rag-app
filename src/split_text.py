@@ -17,7 +17,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # 向量库
-from langchain_chroma import Chroma
+from langchain_community.vectorstores import Chroma
 from chromadb.config import Settings
 
 # 禁用 Chroma telemetry
@@ -193,10 +193,7 @@ def main():
             collection_name="qwen_rag",
             client_settings=settings
         )
-        logger.info(f"✅ 向量库已创建并持久化: {VECTOR_DB_PATH}")
-        # 显式持久化
-        vectorstore.persist()
-        logger.info(f"✅ 向量库已显式持久化")
+        logger.info(f"✅ 向量库已创建并自动持久化: {VECTOR_DB_PATH}")
     except Exception as e:
         logger.error(f"❌ 向量库创建失败: {str(e)}")
         return
