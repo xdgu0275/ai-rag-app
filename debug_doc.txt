@@ -1,3 +1,0 @@
-这是我的学习笔记。
-LangChain 很强大。
-ChromaDB 可以做向量检索。
