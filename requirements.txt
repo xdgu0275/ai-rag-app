@@ -1,16 +1,27 @@
-langchain
-langchain-core
-langchain-text-splitters
-dashscope
-chromadb
-pypdf
-docx2txt
-python-dotenv
-fastapi
-uvicorn
-streamlit
-pydantic
-SQLAlchemy
-requests
-PyYAML
-numpy
+# 核心依赖
+langchain>=0.2.10
+langchain-core>=0.2.22
+langchain-text-splitters>=0.2.2
+
+# 模型与向量存储
+dashscope>=1.17.0
+chromadb>=0.5.0
+
+# 文档处理
+pypdf>=4.2.0
+docx2txt>=0.8
+
+# 环境与配置
+python-dotenv>=1.0.1
+
+# Web框架与API
+fastapi>=0.111.0
+uvicorn>=0.29.0
+streamlit>=1.36.0
+
+# 数据处理与验证
+pydantic>=2.8.2
+SQLAlchemy>=2.0.23
+requests>=2.32.3
+PyYAML>=6.0.1
+numpy>=1.26.4
